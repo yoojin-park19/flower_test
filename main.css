@@ -34,9 +34,6 @@
 }
 
 /* test.html */
-#testResult {
-  display: none;
-}
 .cont-qst {
   height: 100vh;
   display: flex;
@@ -65,8 +62,56 @@
 .cont-qst button:hover {
   color: #f76ea3;
 }
+.cont-qst button:hover::before {
+  content: '🌸';
+}
+.cont-qst button:hover::after {
+  content: '🌸';
+}
 #btnResult {
   font-size: 24px;
   font-weight: 700;
   display: none;
+}
+
+/* testResult */
+.test-result {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+  font-family: 'Cafe24Oneprettynight';
+}
+.test-result .wrap-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}
+.test-result img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+.test-result h2 {
+  margin-bottom: 10px;
+}
+.test-result .btn-reset {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 8px;
+  background-color: #f76ea3;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
 }
