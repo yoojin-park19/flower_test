@@ -1,0 +1,18 @@
+@media screen and (max-width: 430px) {
+  .cont-qst {
+    width: 100vw;
+  }
+  .cont-qst p {
+    width: 330px;
+  }
+  .cont-qst button {
+    width: 330px;
+  }
+  .test-result .wrap-result {
+    width: 330px;
+  }
+  .test-result img {
+    width: 330px;
+    height: 330px;
+  }
+}

@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* index.html */
 .contStart {
   height: 100vh;
@@ -77,7 +78,7 @@
 /* testResult */
 .test-result {
   height: 100vh;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
